@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(29, 43, 54) ;
+  padding: 15px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fcfcfc;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  color: #fcfcfc;
+
+}
+
+.nav-links .sign-in {
+  color:rgb(255, 175, 28);
+
+}
+.nav-links .sign-in:hover {
+  color:rgb(255, 166, 0);
+
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fcfcfc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.nav-links li a:hover {
+  color: #007BFF;
+}
+
+.feedbackpara{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color:black;
+    text-align: center;
+    padding: 2px;
+}
+.feedbackpara .btn {
+  background-color: #007bff; 
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 12px 28px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.feedbackpara .btn:hover {
+  background-color: #0056b3; 
+}
+h1{
+
+    text-align: center;
+}
+.logo{
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
