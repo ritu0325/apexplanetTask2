@@ -1,5 +1,6 @@
 📌 Task 1 – Web Development Basics
 This project is a frontend web development assignment built with HTML, CSS, and JavaScript. It demonstrates the core concepts of building a modern, responsive website and interactive web features.
+      
 🔹 Key Features
 
 • Responsive Layout – Optimized for desktop
